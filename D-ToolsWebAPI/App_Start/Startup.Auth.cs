@@ -6,6 +6,9 @@ using System.Linq;
 using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.ActiveDirectory;
 using Owin;
+using Microsoft.Owin;
+
+[assembly: OwinStartup(typeof(D_ToolsWebAPI.Startup))]
 
 namespace D_ToolsWebAPI
 {
